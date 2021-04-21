@@ -29,7 +29,7 @@ const service = {
 
     expressServer.on('error', service.listen);
     expressServer.on('listening', service.error);
-
+    console.log('Server on port', port);
     return app;
   },
   listen (evt) {

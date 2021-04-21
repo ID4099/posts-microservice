@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "start": "node index.js",
-        "dev": "nodemon --watch 'src/**/*' index.js",
+        "dev": "nodemon",
+        "build": "rm -rf .dist && babel src --out-dir .dist --copy-files --extensions '.ts,.js' && copyfiles index.js .dist/",
         "test": "npx jest --coverage  "
     },
     "dependencies": {
