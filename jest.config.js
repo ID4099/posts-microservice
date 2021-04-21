@@ -5,8 +5,9 @@ module.exports = {
     "collectCoverageFrom": [
         "src/**/*.{js,jsx,ts,tsx}",
         "!<rootDir>/node_modules/",
-        "!<rootDir>/src/grpc/services/FundingChangeRequest.ts",
-        "!<rootDir>/src/grpc/services/index.ts"
+        "!<rootDir>/src/controllers/index.ts",
+        "!<rootDir>/src/models/Responses.ts",
+        "!<rootDir>/src/tools/ReplaceKeys.ts"
     ],
     "coverageThreshold": {
         "global": {
