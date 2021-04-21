@@ -1,0 +1,6 @@
+{
+    "basePath": "/api",
+    "docs": true,
+    "allowCors": true,
+    "healtCheck": true
+}

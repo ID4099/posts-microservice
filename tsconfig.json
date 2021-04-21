@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowJs": true,
+    "baseUrl": "./src",
+    "outDir": "./.dist",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "target": "ES6"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
