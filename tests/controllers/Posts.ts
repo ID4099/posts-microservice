@@ -83,7 +83,7 @@ describe('Posts controller test', () => {
                 success: true,
                 response: {
                     code: 200,
-                    message: "Get posts by user id successful",
+                    message: "Get posts by user id ",
                     results: mockDataResult
                 }
             });
